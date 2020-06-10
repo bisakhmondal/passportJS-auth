@@ -4,8 +4,8 @@ const FACEBOOK= {
 };
 const LINKEDIN=
 {
-    id:"86qlrq3r7xt258",
-    pass:"6MdIACCNC4zMRhWA",
+    id:"869a42ebbqmg0m",
+    pass:"nUfcOV5HcA024K9V",
 }
 
 module.exports={
