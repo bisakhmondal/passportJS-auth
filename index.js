@@ -21,6 +21,7 @@ passport.use(new LinkedInStrategy({
     clientSecret: keys.LINKEDIN.pass,
     callbackURL: "/auth/linkedin/callback",
     scope: ['r_emailaddress', 'r_liteprofile'],
+    proxy:true,
   },
   (accessToken, refreshToken, profile, cb)=> {
       console.log('auth started')
