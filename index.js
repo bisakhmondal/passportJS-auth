@@ -72,6 +72,8 @@ app.get('/profile',(req,res)=>{
 app.get('/failed',(req,res)=>{
     res.send('login Faild');
 })
-const PORT=process.env.PORT || 5000;
+const PORT=process.env.PORT || 5001;
 
-app.listen(PORT);
+app.listen(PORT,()=>{
+    console.log('app stared at ',PORT)
+});
