@@ -1,3 +1,4 @@
+//Place Your Own Auth id & Pass below..
 const FACEBOOK= {
     id:"3024772987592529",
     pass:"d88e4706d2e2b4e395c7a1f90868d27b"
